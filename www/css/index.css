@@ -1,0 +1,59 @@
+/*a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/
+/a/a/a/a/a/				Css Desenvolvido por
+/a/a/a/a/a/				Heygon de Andrade do Lago
+/a/a/a/a/a/				Dryvos@gmail.com   (61) 8239-9275
+/a/a/a/a/a/
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a*/
+body { padding:0px; margin:0px; background: #84c7fa; }
+#main{ width:100%; margin:auto; }
+@font-face { font-family: "DAUPHINN"; src: url("../fonts/DAUPHINN.ttf"); }
+/*a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/
+/a/a/a/a/a/				Código para o Header
+/a/a/a/a/a/				
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a*/
+#main #header{ width:100%; background: url("../img/top.png") repeat-x; padding:1px 0px; z-index: 99999;}
+#main #header .btn_menu{ float: left; cursor: pointer; position: relative; top:20px; left:15px; }
+#main #header .btn_menu img{ height: 30px; }
+#main #header .btn_mensagens{ float: left; cursor: pointer; position: relative; top:20px; left:15px; }
+#main #header .btn_mensagens img{ height: 30px;}
+#main #header .btn_menu_hide{ display: none; float: left; cursor: pointer; position: relative; top:20px; left:15px; }
+#main #header .btn_menu_hide img{ height: 30px; }
+#main #header .mensagens_nao_lidas{ background: #900; border-radius: 10px; color:#FFFFFF; padding:3px; font-size: 9px; width:10px; position: relative; top:-37px; left: 22px; text-align: center; }
+#main #header h1{ text-align: center; font-family: "DAUPHINN"; font-size: 40px; width:272px; margin-left: 50px; position: relative; top: -18px;}
+/*a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/
+/a/a/a/a/a/				Código para o Content
+/a/a/a/a/a/				
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a*/
+#main #content{ width:98%; }
+/*a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/				Código para o Menu
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a*/
+#main #content #menu{ display: none; background: #53b1f8; width: 90%; height: 28%; font-size: 20px; padding-left: 5px; position: relative; top: -20px; padding-top: 20px; padding-bottom: 200px; z-index:9; }
+#main #content #menu a{ text-decoration: none; color:#FFFFFF; }
+#main #content #menu ul{ padding:0px; }
+#main #content #menu li{ list-style: none; margin:5px; position: relative; top:-20px; background: #3aa6f7; border: solid 1px #84c7fa; margin-left: -5px; }
+#main #content #menu li img{ height: 30px; margin: 5px 5px; position: relative; top: 10px; }
+/*a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/				Código para os botôes
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a*/
+#main #content #buttons ul{ padding:0px 7px; }
+#main #content #buttons ul a{ text-decoration: none; }
+#main #content #buttons li{ list-style: none; float: left; color:#FFFFFF; font-family: Arial; font-size: 16px; font-weight: bold; text-align: center; margin:4px; }
+/*a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/
+/a/a/a/a/a/				Código para as listas
+/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a/a*/
+#main #listas{ width:70%; padding:15px; }
+#main #listas ul{ padding:0px 7px; }
+#main #listas ul li{ list-style: none; padding:8px; background: #42bffd; margin-bottom: 5px; border-radius:5px; border:solid 1px #666; }
+#main #listas ul li ul{ display:none; }
+
+
+
+
+#publicidade {width:338px; overflow: hidden; position: absolute; top:81%;}
+#publicidade2 {width:78px; height: 83%; overflow: hidden; position: absolute; top:17%; left: 75%}

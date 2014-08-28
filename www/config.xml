@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.OndeeaFesta" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Onde é a festa?</name>
+    <description>
+        Aplicativo que te ajuda a organizar festas e a divulga-las
+    </description>
+    <author email="contato.m42@gmail.com" href="http://web-m42.com">
+        M42 Team
+    </author>
+    <preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+    <gap:plugin name="org.apache.cordova.battery-status" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.console" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.device-motion" />
+    <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.globalization" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <icon src="img/icons/World_Map.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="img/icons/World_Map.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="img/icons/World_Map.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="img/icons/World_Map.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="img/icons/World_Map.png" />
+    <icon gap:platform="ios" height="57"  src="img/icons/World_Map.png" width="57" />
+    <icon gap:platform="ios" height="72"  src="img/icons/World_Map.png" width="72" />
+    <icon gap:platform="ios" height="114" src="img/icons/World_Map.png" width="114" />
+    <icon gap:platform="ios" height="144" src="img/icons/World_Map.png" width="144" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi"  src="img/icons/World_Map.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi"  src="img/icons/World_Map.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi"  src="img/icons/World_Map.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="img/icons/World_Map.png" />
+    <gap:splash gap:platform="ios" height="480"  src="img/icons/World_Map.png" width="320" />
+    <gap:splash gap:platform="ios" height="960"  src="img/icons/World_Map.png" width="640" />
+    <gap:splash gap:platform="ios" height="1136" src="img/icons/World_Map.png" width="640" />
+    <gap:splash gap:platform="ios" height="1024" src="img/icons/World_Map.png" width="768" />
+    <gap:splash gap:platform="ios" height="768"  src="img/icons/World_Map.png" width="1024" />
+    <access origin="*" />
+</widget>
